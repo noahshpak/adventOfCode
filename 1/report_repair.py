@@ -1,8 +1,10 @@
 """https://adventofcode.com/2020/day/1"""
-import fire
+from collections import Counter
 from functools import reduce
 from typing import List, Tuple
-from collections import Counter
+
+import fire
+
 
 class ReportRepair:
     def __init__(self):
